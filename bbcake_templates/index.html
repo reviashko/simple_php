@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+
+<html>
+<head runat="server">
+	<meta http-equiv="Content-type" content="text/html; charset="utf-8" />
+	<meta name="description" content="" />
+	<meta name="robots" content="noindex, nofollow" />
+	<title>WHome</title>
+
+	<link rel="shortcut icon" href="/img/favicon.ico" />
+	<link rel="apple-touch-icon" href="/img/favicon.png" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="MobileOptimized" content="320" />
+
+	<script src="/js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/forms.js" type="text/javascript" charset="utf-8"></script>
+	<link media="screen, handheld" type="text/css" rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+<script type="text/javascript">
+	var config =	'{"device":['
+				+'{"gpio":"172.16.1.116", "names":[{"n":"Зал"}, {"n":"Корридор"}, {"n":"Ванная"}, {"n":"Кухня"}]}'
+				//+'{"gpio":"172.16.1.117", "names":[{"n":"Test"}]}'
+			+']}';
+
+	device.OnDocumentReady(config);
+</script>
+
+<div>WHome</div>
+<div class="btns">Попытка подключения</div>
+
+
+</body>
+</html>
